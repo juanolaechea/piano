@@ -1,3 +1,24 @@
-<div class="container mt-400px">
-    <h2 >App Piano</h2>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="list-group">
+  
+            <a (click)="aplicarsonido(1)" class="list-group-item list-group-item-action" style="background-color:red">DO</a>
+            <a (click)="aplicarsonido(2)" class="list-group-item list-group-item-action" style="background-color:rebeccapurple">RE</a>
+            <a (click)="aplicarsonido(3)" class="list-group-item list-group-item-action" style="background-color:orange">MI</a>
+            <a (click)="aplicarsonido(4)" class="list-group-item list-group-item-action" style="background-color:yellow">FA</a>
+            <a (click)="aplicarsonido(5)" class="list-group-item list-group-item-action" style="background-color:greenyellow">SOL</a>
+            <a (click)="aplicarsonido(6)" class="list-group-item list-group-item-action" style="background-color:blue">LA</a>
+            <a (click)="aplicarsonido(7)" class="list-group-item list-group-item-action" style="background-color:violet">SI</a>
+            
+          </div>
+    </div>
 </div>
+
+
+
+
+  <audio controls>
+    <source src="../assets/sonidos/note2.wav">
+ 
+  </audio>
